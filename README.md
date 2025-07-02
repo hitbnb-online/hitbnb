@@ -2,7 +2,8 @@
 
 **Official Website**: [https://hitbnb.online](https://hitbnb.online)
 
-HITBNB is a BEP20-compliant token on the Binance Smart Chain designed with automated monthly vesting, ROI management, and decentralized wallet controls powered by Chainlink Automation. The token serves to align project stakeholders with long-term value through codified, time-based distributions.
+HITBNB is a BEP20-compliant token on the Binance Smart Chain designed with automated monthly vesting, ROI management, and decentralized wallet controls powered by Chainlink Automation. The token serves to align project stakeholders with long-term value through codified, time-based distributions. **HITBNB** is a decentralized reward-based protocol, designed to deliver sustainable ROI, referral incentives, and stacking plans to its community. With advanced automation, a clear reward structure, and full transparency, HITBNB empowers users to earn, participate, and grow in a 100% decentralized Web3 ecosystem.
+
 
 ---
 
@@ -70,6 +71,47 @@ This removes the need for manual or centralized control, enforcing full decentra
 📄 [Download Audit Report (Coming Soon)](https://hitbnb.online/audit.pdf)
 
 ---
+
+## 📚 Documentation
+
+🔗 Full Developer & User Docs: [https://hitbnb.gitbook.io/doc](https://hitbnb.gitbook.io/doc)
+
+## 🧩 Key Components
+
+- **HITBNB Token** – BEP-20 token with built-in reward logic
+- **HITBNB Vault** – Manages user claimable rewards and distributions
+- **HITBNB Buyer** – Automatically converts USDT to HITBNB for ROI Pool
+- **Referral & Staking Engine** – 18-level system with daily ROI and bonus plans
+- **Decentralized Node Hosting** – Community can run nodes and earn rewards
+- **HITBNB Scan** – Unified explorer for all DApp & contract transactions (upcoming)
+
+## 🏗️ Tech Stack
+
+- Solidity `^0.8.24`
+- OpenZeppelin (UUPS Upgradeable)
+- PHP 8.3 + node (backend scripts )
+- Laravel + React (frontend)
+- Chainlink Keepers / VPS Automation
+- Bitquery API for off-chain holder data
+
+## 🔐 Smart Contracts
+
+| Contract      | Description                            | Address |
+|---------------|----------------------------------------|---------|
+| HITBNB Token  | Main BEP-20 token with emission logic  | `0x658310C8219B1a92773523e52ca84b55fb333f43` |
+| HITBNB Vault  | Handles pending claims & withdrawals   | `0x7de1d440a20b3fd16658ad619201eee91ac07de8` |
+| HITBNB Buyer  | Buys HITBNB via PancakeSwap & routes   | `0x69b2299add358ac8a6c01d85360fe4d476edbe24` |
+
+## 🛠️ Installation (for Devs)
+
+```bash
+git clone https://github.com/yourorg/hitbnb.git
+cd hitbnb
+# Smart contracts
+npm install   # or yarn install
+# Run tests or compile
+npx hardhat compile
+
 
 ## 📜 License
 
